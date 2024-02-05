@@ -1,0 +1,37 @@
+:root {
+    --rouge: #D7132D;
+    --vert: #00FF9F;
+    --bourgogne: #74123C;
+    --bleu: #061148;
+    --gris: #292728;
+
+    --poppins: 'Poppins', sans-serif;
+}
+
+h1,
+.h1 {
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--vert);
+    font-family: var(--poppins);
+}
+
+h2,
+.h2 {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--vert);
+    font-family: var(--poppins);
+}
+
+/*----- STYLES GÉNÉRAUX -----*/
+
+
+
+
+
+
+
+
+
+/*----- SECTION HÉROS -----*/
