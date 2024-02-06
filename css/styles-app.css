@@ -1,6 +1,8 @@
 /*----- STYLES GÉNÉRAUX -----*/
 
-
+.navbar {
+    background-color: var(--rouge);
+}
 
 
 
