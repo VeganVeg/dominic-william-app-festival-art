@@ -4,4 +4,8 @@
     background-color: var(--bleu);
 }
 
+footer {
+    background: var(--gris);
+}
+
 /*----- SECTION HÉROS -----*/

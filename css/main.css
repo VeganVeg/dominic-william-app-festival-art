@@ -24,6 +24,13 @@ h2,
     font-family: var(--poppins);
 }
 
+p {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: white;
+}
+
 /*----- STYLES GÉNÉRAUX -----*/
 
 
