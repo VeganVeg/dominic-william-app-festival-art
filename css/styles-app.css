@@ -10,3 +10,7 @@ footer {
 }
 
 /*----- SECTION HÉROS -----*/
+
+.searchbar {
+    background: var(--bourgogne);
+}
