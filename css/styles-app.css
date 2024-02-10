@@ -14,13 +14,25 @@ footer {
 .searchbar {
     background-color: var(--bourgogne);
     color: #ebebeb;
+    padding: 10px 0;
+
 }
 
 .searchbar::placeholder {
     color: #ebebeb;
+    font-family: var(--poppins);
+
 }
 
 .searchbar:focus {
     background-color: var(--bourgogne);
     color: #ebebeb;
+}
+
+.bi-search {
+    font-size: 1.2rem;
+    color: #ebebeb;
+    position: absolute;
+    margin-left: 1rem;
+    margin-top: 8px;
 }
