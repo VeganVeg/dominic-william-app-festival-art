@@ -11,12 +11,12 @@ footer {
 
 /*----- SECTION HÉROS -----*/
 
-input[type='text'] {
+.searchbar {
     background-color: var(--bourgogne);
     color: #ebebeb;
 }
 
-::placeholder {
+.searchbar::placeholder {
     color: #ebebeb;
 }
 
