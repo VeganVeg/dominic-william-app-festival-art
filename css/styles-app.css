@@ -11,6 +11,16 @@ footer {
 
 /*----- SECTION HÉROS -----*/
 
-.searchbar {
-    background: var(--bourgogne);
+input[type='text'] {
+    background-color: var(--bourgogne);
+    color: #ebebeb;
+}
+
+::placeholder {
+    color: #ebebeb;
+}
+
+.searchbar:focus {
+    background-color: var(--bourgogne);
+    color: #ebebeb;
 }
