@@ -1,5 +1,7 @@
 /*----- STYLES GÉNÉRAUX -----*/
 
+
+/*----- NAVBAR -----*/
 .navbar {
     background-color: var(--bleu);
     position: relative;
@@ -23,12 +25,15 @@
     box-shadow: none;
 }
 
+
+/*----- FOOTER -----*/
 footer {
     background: var(--gris);
 }
 
 /*----- SECTION HÉROS -----*/
 
+/*----- SEARCHBAR -----*/
 .searchbar {
     background-color: var(--bourgogne);
     color: #ebebeb;
@@ -57,6 +62,7 @@ footer {
     margin-top: 7px;
 }
 
+/*----- FILTER -----*/
 .btn {
     border-radius: 25px;
     background-color: var(--bleu);
@@ -69,4 +75,13 @@ footer {
 .btn:hover {
     color: var(--vert);
     background-color: #050b2e;
+}
+
+.division {
+    position: relative;
+    margin: 35px auto;
+    width: 65%;
+    height: 3px;
+    background-color: var(--gris);
+    border-radius: 25px;
 }
