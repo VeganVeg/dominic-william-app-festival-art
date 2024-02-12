@@ -1,8 +1,12 @@
 /*----- STYLES GÉNÉRAUX -----*/
 .application {
     aspect-ratio: 5/9;
-    background-color: purple;
+    border: 1px solid black;
+    border-radius: 25px;
+    overflow: hidden;
+    filter: drop-shadow(30px 6px 4px #c70a23);
 }
+
 
 
 
