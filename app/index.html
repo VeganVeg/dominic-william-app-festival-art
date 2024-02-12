@@ -36,7 +36,7 @@
             <div class="container-fluid">
 
                 <!-- HAMBURGER BUTTON -->
-                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav"
+                <button class="navbar-toggler border-0" data-bs-toggle="collapse" data-bs-target="#mainNav"
                     aria-controls="mainNav" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -96,7 +96,7 @@
                             <div class="form-group">
                                 <i class="bi bi-search"></i>
                                 <input type=" text" placeholder="Rechercher une oeuvre, un artiste..."
-                                    class="form-control searchbar ps-5">
+                                    class="form-control searchbar ps-5 border-0">
                             </div>
                         </div>
                     </form>
@@ -105,16 +105,19 @@
 
             <section>
                 <div class="row">
-                    <div class="filter">
-                        <ul>
+                    <div class="filter overflow-hidden">
+                        <ul class="list-group list-group-horizontal list-unstyled justify-content-between">
                             <li>
-                                <button type="button" class="btn btn-primary">Toutes</button>
+                                <button type="button" class="btn btn-primary me-3">Toutes</button>
                             </li>
                             <li>
-                                <button type="button" class="btn btn-primary">Installatons interactives</button>
+                                <button type="button" class="btn btn-primary px-4 me-3">Concert</button>
                             </li>
                             <li>
-                                <button type="button" class="btn btn-primary">Performances</button>
+                                <button type="button" class="btn btn-primary px-4 me-3">Performances</button>
+                            </li>
+                            <li>
+                                <button type="button" class="btn btn-primary px-4">AR/VR</button>
                             </li>
                         </ul>
                     </div>

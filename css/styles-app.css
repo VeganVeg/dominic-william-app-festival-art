@@ -5,6 +5,24 @@
     position: relative;
 }
 
+.nav-link {
+    font-size: 15px;
+    color: var(--vert);
+    font-family: var(--poppins);
+}
+
+.nav-link:hover {
+    color: var(--vert);
+}
+
+.nav-link:focus {
+    color: var(--vert);
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
 footer {
     background: var(--gris);
 }
@@ -28,6 +46,7 @@ footer {
 .searchbar:focus {
     background-color: var(--bourgogne);
     color: #ebebeb;
+    box-shadow: none;
 }
 
 .bi-search {
@@ -38,11 +57,16 @@ footer {
     margin-top: 7px;
 }
 
-.filter {
-    overflow: hidden;
+.btn {
+    border-radius: 25px;
+    background-color: var(--bleu);
+    color: var(--vert);
+    font-family: var(--poppins);
+    font-size: 14px;
+    border-style: none;
 }
 
-.filter,
-ul li {
-    display: inline;
+.btn:hover {
+    color: var(--vert);
+    background-color: #050b2e;
 }
