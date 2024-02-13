@@ -99,6 +99,13 @@ h2 span {
 
 .card {
     background-color: var(--bleu);
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transform: scale(1);
+}
+
+.card:hover {
+    transform: scale(1.05);
 }
 
 .img-fluid {
