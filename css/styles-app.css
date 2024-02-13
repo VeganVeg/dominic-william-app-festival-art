@@ -97,7 +97,7 @@ h2 span {
 
 /*----- EN VEDETTE - CARTES -----*/
 
-.card {
+#cards-x .card {
     background-color: var(--bleu);
     transition-property: transform;
     transition-duration: 0.5s;
@@ -162,4 +162,17 @@ h2 span {
     font-weight: 400;
     color: var(--vert);
     font-family: var(--poppins);
+}
+
+.card {
+    background-color: var(--bleu);
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transform: scale(1);
+}
+
+.img-cards-y {
+    height: 20vh;
+    object-fit: cover;
+    border: 3px solid var(--rouge);
 }
