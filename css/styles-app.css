@@ -77,11 +77,20 @@ footer {
     background-color: #050b2e;
 }
 
+/*----- DIVISION -----*/
+
 .division {
     position: relative;
     margin: 35px auto;
-    width: 65%;
+    width: 70%;
     height: 3px;
     background-color: var(--gris);
+    border-radius: 25px;
+}
+
+/*----- EN VEDETTE -----*/
+
+h2 span {
+    background-color: var(--bleu);
     border-radius: 25px;
 }
