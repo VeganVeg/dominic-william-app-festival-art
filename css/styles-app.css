@@ -101,18 +101,19 @@ h2 span {
     background-color: var(--bleu);
 }
 
-.mn {
-    position: relative;
+.img-fluid {
     height: auto;
-    max-width: 100%;
-
+    object-fit: contain;
+    border: 3px solid var(--rouge);
 }
 
-.card-img-top {
-    height: 20vh;
-    object-fit: contain;
-    border-radius: 100%;
-    width: 100%;
+.card-division {
+    position: relative;
+    margin: 15px auto;
+    width: 85%;
+    height: 3px;
+    background-color: var(--rouge);
+    border-radius: 25px;
 }
 
 .card-title {
