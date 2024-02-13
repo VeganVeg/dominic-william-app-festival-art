@@ -97,6 +97,7 @@ h2 span {
 
 /*----- EN VEDETTE - CARTES -----*/
 
-.card-img-top {
+.img-fluid {
     height: 20vh;
+    object-fit: cover;
 }
