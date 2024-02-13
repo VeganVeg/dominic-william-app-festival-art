@@ -107,6 +107,14 @@ h2 span {
     border: 3px solid var(--rouge);
 }
 
+/*
+.img-fluid {
+    height: 20vh;
+    object-fit: cover;
+    border: 3px solid var(--rouge);
+    border-radius: 10%;
+}*/
+
 .card-division {
     position: relative;
     margin: 15px auto;
