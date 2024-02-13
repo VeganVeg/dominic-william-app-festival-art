@@ -94,3 +94,9 @@ h2 span {
     background-color: var(--bleu);
     border-radius: 25px;
 }
+
+/*----- EN VEDETTE - CARTES -----*/
+
+.card-img-top {
+    height: 20vh;
+}
