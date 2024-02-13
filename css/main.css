@@ -8,6 +8,10 @@
     --poppins: 'Poppins', sans-serif;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 h1,
 .h1 {
     font-size: 20px;

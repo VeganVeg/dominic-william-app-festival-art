@@ -102,6 +102,11 @@ h2 span {
     transition-property: transform;
     transition-duration: 0.5s;
     transform: scale(1);
+    max-width: 200px;
+}
+
+#cards-x {
+    width: 140%;
 }
 
 .card:hover {
