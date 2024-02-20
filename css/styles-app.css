@@ -173,3 +173,53 @@ h2 span {
     object-fit: cover;
     border: 3px solid var(--rouge);
 }
+
+/*----- PAGE - OEUVRE -----*/
+
+/*----- NAVBAR - ICON -----*/
+
+.chevron-container {
+    width: 40px;
+    height: 40px;
+    background-color: var(--bleu);
+    z-index: 2;
+}
+
+.bi-chevron-left::before {
+    color: var(--vert);
+    font-size: 22px;
+    padding-top: 3px;
+    padding-right: 3px;
+}
+
+.bi-heart-fill::before {
+    color: var(--vert);
+    font-size: 20px;
+    padding-top: 7px;
+}
+
+.horizontalherbs {
+    height: 33vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+h1 span {
+    background-color: var(--bleu);
+    border-radius: 25px;
+}
+
+.place {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--bleu);
+    font-family: var(--poppins);
+}
+
+p span {
+    background-color: var(--bleu);
+    border-radius: 25px;
+    color: var(--vert);
+}
+
+/*----- ARTIST - bIO -----*/
