@@ -63,7 +63,7 @@ footer {
 }
 
 /*----- FILTER -----*/
-.btn {
+.btn-accueil {
     border-radius: 25px;
     background-color: var(--bleu);
     color: var(--vert);
@@ -72,16 +72,25 @@ footer {
     border-style: none;
 }
 
-.btn:hover {
+.btn-accueil:hover {
     color: var(--vert);
     background-color: #050b2e;
 }
 
 /*----- DIVISION -----*/
 
-.division {
+.division-accueil {
     position: relative;
     margin: 35px auto;
+    width: 70%;
+    height: 3px;
+    background-color: var(--gris);
+    border-radius: 25px;
+}
+
+.division-bio {
+    position: relative;
+    margin: 10px auto 32px auto;
     width: 70%;
     height: 3px;
     background-color: var(--gris);
@@ -113,7 +122,7 @@ h2 span {
     width: 140%;
 }
 
-.card:hover {
+.card-accueil:hover {
     transform: scale(1.05);
 }
 
@@ -140,7 +149,7 @@ h2 span {
     border-radius: 25px;
 }
 
-.card-title {
+.card-title-accueil {
     font-size: 16px;
     font-weight: 700;
     color: var(--vert);
@@ -222,4 +231,25 @@ p span {
     color: var(--vert);
 }
 
-/*----- ARTIST - bIO -----*/
+/*----- BIO - ARTIST -----*/
+
+.card-title-bio {
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--vert);
+    font-family: var(--poppins);
+}
+
+.btn-bio {
+    border-radius: 25px;
+    background-color: var(--bleu);
+    color: var(--vert);
+    font-family: var(--poppins);
+    font-size: 14px;
+    border: 1px solid var(--vert);
+}
+
+.btn-bio:hover {
+    color: rgba(0, 255, 157, 0.623);
+    border: 1px solid rgba(0, 255, 157, 0.623);
+}
