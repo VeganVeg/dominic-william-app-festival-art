@@ -88,9 +88,18 @@ footer {
     border-radius: 25px;
 }
 
-.division-bio {
+.division-bio1 {
     position: relative;
     margin: 10px auto 32px auto;
+    width: 70%;
+    height: 3px;
+    background-color: var(--gris);
+    border-radius: 25px;
+}
+
+.division-bio2 {
+    position: relative;
+    margin: 24px auto 32px auto;
     width: 70%;
     height: 3px;
     background-color: var(--gris);
@@ -261,4 +270,11 @@ p span {
     font-family: var(--poppins);
     line-height: 1.7;
 
+}
+
+.img-yvette {
+    height: 20vh;
+    object-fit: cover;
+    object-position: 50% 0%;
+    border: 3px solid var(--rouge);
 }
