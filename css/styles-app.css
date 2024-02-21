@@ -278,3 +278,16 @@ p span {
     object-position: 50% 0%;
     border: 3px solid var(--rouge);
 }
+
+/*----- OEUVRE - INFO -----*/
+
+.oeuvre-info {
+    background-color: var(--bleu);
+    padding: 16px;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--vert);
+    font-family: var(--poppins);
+    line-height: 1.7;
+    border-radius: 6px;
+}
