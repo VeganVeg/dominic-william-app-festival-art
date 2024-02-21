@@ -253,3 +253,12 @@ p span {
     color: rgba(0, 255, 157, 0.623);
     border: 1px solid rgba(0, 255, 157, 0.623);
 }
+
+.artist-info {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--vert);
+    font-family: var(--poppins);
+    line-height: 1.7;
+
+}
