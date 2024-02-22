@@ -218,7 +218,7 @@ h2 span {
 
 .horizontalherbs {
     height: 33vh;
-    width: 100%;
+    width: 100vh;
     object-fit: cover;
 }
 
@@ -241,6 +241,12 @@ p span {
 }
 
 /*----- BIO - ARTIST -----*/
+
+.nav-bio {
+    height: 33vh;
+    background-image: url(../assets/artworks/horizontalHerbs-1024x576.jpg);
+    background-size: cover;
+}
 
 .card-title-bio {
     font-size: 17px;
