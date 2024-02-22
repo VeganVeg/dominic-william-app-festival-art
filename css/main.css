@@ -48,41 +48,4 @@ p {
 body {
   background-color: var(--rouge);
 }
-
-.joseph {
-  height: 20vh;
-  object-fit: cover;
-  width: 20vh;
-}
-
-.luis {
-  height: 20vh;
-  object-fit: cover;
-  width: 20vh;
-}
-
-.dog {
-  height: 20vh;
-  object-fit: cover;
-  width: 20vh;
-}
-
-.brooks {
-  height: 20vh;
-  object-fit: cover;
-  width: 20vh;
-}
-
-.gertrude {
-  height: 20vh;
-  object-fit: cover;
-  width: 20vh;
-}
-
-.oladimeji {
-  height: 20vh;
-  object-fit: cover;
-  width: 20vh;
-}
-
 /*----- SECTION HÉROS -----*/
