@@ -291,3 +291,49 @@ p span {
     line-height: 1.7;
     border-radius: 6px;
 }
+
+/*----- ACCORDION - HEADER -----*/
+
+.accordion-item {
+    border: none;
+}
+
+.accordion-button {
+    background-color: var(--bourgogne);
+    font-size: 13px;
+    font-family: var(--poppins);
+    color: #ebebeb;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.form-control::placeholder {
+    font-size: 13px;
+    font-family: var(--poppins);
+}
+
+.accordion-body {
+    font-size: 13px;
+    font-family: var(--poppins);
+}
+
+.accordion-body .form-control {
+    font-size: 13px;
+}
+
+.date-reservation::placeholder {
+    color: black;
+}
+
+.btn-reservation {
+    background-color: var(--bourgogne);
+    color: #ebebeb;
+    font-size: 12px;
+}
+
+.btn-reservation:hover {
+    background-color: #651136;
+    color: #ebebeb;
+}
