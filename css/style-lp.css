@@ -179,3 +179,9 @@
   padding: 30px;
 }
 /*----- SECTION HÉROS -----*/
+
+/*----- SECTION FOOTER -----*/
+a.github{
+  color: white;
+  text-decoration: none;
+}
