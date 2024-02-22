@@ -246,6 +246,7 @@ p span {
     height: 33vh;
     background-image: url(../assets/artworks/horizontalHerbs-1024x576.jpg);
     background-size: cover;
+    background-position: 50% 0;
 }
 
 .card-title-bio {
