@@ -1,59 +1,88 @@
 :root {
-    --rouge: #D7132D;
-    --vert: #00FF9F;
-    --bourgogne: #74123C;
-    --bleu: #061148;
-    --gris: #292728;
+  --rouge: #d7132d;
+  --vert: #00ff9f;
+  --bourgogne: #74123c;
+  --bleu: #061148;
+  --gris: #292728;
 
-    --poppins: 'Poppins', sans-serif;
+  --poppins: "Poppins", sans-serif;
 }
 
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 h1,
 .h1 {
-    font-size: 20px;
-    font-weight: 800;
-    color: var(--vert);
-    font-family: var(--poppins);
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--vert);
+  font-family: var(--poppins);
 }
 
 h2,
 .h2 {
-    font-size: 17px;
-    font-weight: 700;
-    color: var(--vert);
-    font-family: var(--poppins);
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--vert);
+  font-family: var(--poppins);
 }
 
 h3,
 .h3 {
-    font-size: 16px;
-    font-weight: 400;
-    color: var(--vert);
-    font-family: var(--poppins);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--vert);
+  font-family: var(--poppins);
 }
 
 p {
-    font-size: 14px;
-    font-weight: 400;
-    font-family: var(--poppins);
-    color: white;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--poppins);
+  color: white;
 }
 
 /*----- STYLES GÉNÉRAUX -----*/
 
 body {
-    background-color: var(--rouge);
+  background-color: var(--rouge);
 }
 
+.joseph {
+  height: 20vh;
+  object-fit: cover;
+  width: 20vh;
+}
 
+.luis {
+  height: 20vh;
+  object-fit: cover;
+  width: 20vh;
+}
 
+.dog {
+  height: 20vh;
+  object-fit: cover;
+  width: 20vh;
+}
 
+.brooks {
+  height: 20vh;
+  object-fit: cover;
+  width: 20vh;
+}
 
+.gertrude {
+  height: 20vh;
+  object-fit: cover;
+  width: 20vh;
+}
 
-
+.oladimeji {
+  height: 20vh;
+  object-fit: cover;
+  width: 20vh;
+}
 
 /*----- SECTION HÉROS -----*/
