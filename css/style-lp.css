@@ -3,6 +3,7 @@
   --vert: #00ff9f;
   --bourgogne: #74123c;
   --bleu: #061148;
+  --bleu_oppacity: rgba(6, 17, 72, 0.5);
   --gris: #292728;
 }
 
@@ -38,70 +39,70 @@
   margin: 10px;
   object-fit: cover;
   height: 20vh;
-  width: 20vh;
+  width: 20vw;
   border-radius: 30px;
 }
 .section-testimonials h1 {
   color: var(--vert);
+  font-size: large;
 }
 
 .section-testimonials .card {
-  height: 43vh;
-  width: 250px;
-  margin: 25px;
+  margin: auto;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.joseph {
+  object-fit: cover;
+  object-position: 100% 30%;
 }
 
 .temoignages {
   border: 3px solid var(--bleu);
   border-radius: 15px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin: auto;
   padding-top: 10px;
+}
+.temoignages p {
+  font-size: larger;
 }
 
-.villasmil {
-  border: 3px solid var(--bleu);
-  background-color: var(--bleu);
-  border-radius: 15px;
-  margin-bottom: 10px;
-  padding-top: 10px;
-}
-
-.woof {
-  border: 3px solid var(--bleu);
-  background-color: var(--bleu);
-  border-radius: 15px;
-  margin-bottom: 10px;
-  padding-top: 10px;
-}
-
-.leibee {
-  border: 3px solid var(--bleu);
-  background-color: var(--bleu);
-  border-radius: 15px;
-  margin-bottom: 10px;
-  padding-top: 10px;
-}
-
-.pistache {
-  border: 3px solid var(--bleu);
-  background-color: var(--bleu);
-  border-radius: 15px;
-  margin-top: 10px;
-  padding-top: 10px;
-}
-
-.odunis {
-  border: 3px solid var(--bleu);
-  background-color: var(--bleu);
-  border-radius: 15px;
-  margin-top: 10px;
-  padding-top: 10px;
-}
 .section-testimonials {
   padding: 30px;
 }
-/*----- SECTION HÉROS -----*/
+
+/*----- SECTION ACCORDÉON -----*/
+.FAQ {
+  margin: auto;
+  width: 80%;
+}
+
+.accordion {
+  filter: drop-shadow(30px 12px 4px #c70a23);
+}
+
+.faq-title {
+  border: 4px solid #c70a23;
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+/*----- SECTION INFOLETTRE -----*/
+.infolettre {
+  background-image: url("assets/img/background.jpg");
+  margin: 30px;
+  padding: 50px;
+}
+.info {
+  background-color: var(--bleu_oppacity);
+  padding: 50px;
+  border-radius: 25px;
+}
+/*----- SECTION MODAL -----*/
 
 /*----- SECTION FOOTER -----*/
 a.github {
