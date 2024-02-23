@@ -93,17 +93,19 @@
 
 /*----- SECTION INFOLETTRE -----*/
 .infolettre {
-  background-image: url("assets/img/background.jpg");
+  background-image: url(/assets/img/background.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 30%;
   margin: 30px;
-  padding: 50px;
+  padding: 20px;
 }
+
 .info {
   background-color: var(--bleu_oppacity);
   padding: 50px;
   border-radius: 25px;
 }
 /*----- SECTION MODAL -----*/
-
 /*----- SECTION FOOTER -----*/
 a.github {
   color: white;

@@ -417,7 +417,7 @@
       <section class="infolettre">
         <div class="container">
           <div class="row justify-content-end">
-            <div class="col-12 col-md-6 text-center info">
+            <div class="col-12 col-md-6 text-center p-5 info">
               <h2 class="text-md-start">Infolettre</h2>
               <p class="text-md-start">
                 Abonnez-vous à notre infolettre pour recevoir des nouvelles sur
@@ -429,7 +429,7 @@
                 type="button"
                 class="btn btn-primary d-md-flex justify-content-end"
                 data-bs-toggle="modal"
-                data-bs-target="#modal"
+                data-bs-target="#example"
               >
                 <p>Je m'abonne</p>
               </button>
@@ -466,5 +466,43 @@
         </div>
       </div>
     </footer>
+    <!-- MODAL -->
+    <div id="example" class="modal fade" tabindex="-1">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title">Restez informé !</h1>
+            <button
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Fermer la
+                fenêtre"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="form-group">
+              <i class="bi bi-envelope-at"></i>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="   Votre adresse courriel"
+              />
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">S'inscrire</button>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Annuler
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
