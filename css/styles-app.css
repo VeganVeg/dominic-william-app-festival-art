@@ -344,3 +344,24 @@ p span {
     background-color: #651136;
     color: #ebebeb;
 }
+
+/*----- MODAL - WINDOW -----*/
+
+.modal-content {
+    color: var(--vert);
+    background-color: var(--bleu);
+    font-family: var(--poppins);
+}
+
+.modal-body {
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.modal-title {
+    font-weight: 700;
+}
+
+.btn-close {
+    background-color: var(--vert);
+}
