@@ -35,6 +35,10 @@
   margin: 15px;
 }
 /*----- section-testimonials -----*/
+.section-testimonials {
+  padding: 30px;
+}
+
 .section-testimonials img {
   margin: 10px;
   object-fit: cover;
@@ -66,10 +70,6 @@
 }
 .temoignages p {
   font-size: larger;
-}
-
-.section-testimonials {
-  padding: 30px;
 }
 
 /*----- SECTION ACCORDÉON -----*/
