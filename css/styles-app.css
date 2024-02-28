@@ -365,3 +365,11 @@ p span {
 .btn-close {
     background-color: var(--vert);
 }
+
+.liked-btn{
+    background-color: #f1f1f1; 
+}
+
+.liked-heart::before{
+    color: #8fa9d6;
+}
