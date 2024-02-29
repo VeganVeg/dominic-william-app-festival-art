@@ -77,6 +77,19 @@ footer {
     background-color: #050b2e;
 }
 
+.swiper-slide{
+        width: fit-content;
+        height: auto;
+}
+
+.swiper-filters, .swiper-featured-artworks{
+    padding:  12px;
+}
+
+#card-x{
+    padding: auto 5px;
+}
+
 /*----- DIVISION -----*/
 
 .division-accueil {
@@ -128,7 +141,7 @@ h2 span {
 }
 
 #cards-x {
-    width: 140%;
+    overflow: hidden;
 }
 
 .card-accueil:hover {
