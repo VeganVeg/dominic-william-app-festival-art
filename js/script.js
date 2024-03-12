@@ -1,3 +1,16 @@
+const likeButton = document.querySelector('.like-button');
+const heart = document.querySelector('.bi-heart-fill');
+
+
+
+if (document.querySelector('.like-button') !== null) {
+
+    likeButton.addEventListener('click', function () {
+        likeButton.classList.add('liked-btn');
+        heart.classList.add('liked-heart');
+    });
+}
+
 
 const swiperFilters = new Swiper('.swiper-filters', {
     freeMode: true,
@@ -11,11 +24,3 @@ const swiperArtworks = new Swiper('.swiper-featured-artworks', {
     slidesPerView: 'auto',
     spaceBetween: 10
 })
-
-const likeButton = document.querySelector('.like-button');
-const heart = document.querySelector('.bi-heart-fill');
-
-likeButton.addEventListener('click', function(){
-    likeButton.classList.add('liked-btn');
-    heart.classList.add('liked-heart');
-});
