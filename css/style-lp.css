@@ -12,6 +12,19 @@
 .card {
   border-radius: 20px;
 }
+
+.boutton-download {
+  width: 300px;
+  background-color: rgba(128, 128, 128, 0.443);
+  border: 4px solid var(--bleu);
+  border-radius: 35px;
+  padding-top: 15px;
+}
+
+.boutton-download p {
+  font-size: 15px;
+}
+
 /*-- card --*/
 
 .application {
