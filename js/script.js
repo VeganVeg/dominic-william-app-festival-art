@@ -1,12 +1,20 @@
 const likeButton = document.querySelector(".like-button");
 const heart = document.querySelector(".bi-heart-fill");
 
+
 if (document.querySelector(".like-button") !== null) {
   likeButton.addEventListener("click", function () {
     likeButton.classList.add("liked-btn");
     heart.classList.add("liked-heart");
   });
 }
+
+const swiperPhone = new Swiper(".screenshots", {
+  navigation: {
+    nextEl: ".btn-next",
+    prevEl: ".btn-prev",
+  },
+});
 
 const swiperFilters = new Swiper(".swiper-filters", {
   freeMode: true,
@@ -18,11 +26,4 @@ const swiperArtworks = new Swiper(".swiper-featured-artworks", {
   freeMode: true,
   slidesPerView: "auto",
   spaceBetween: 10,
-});
-
-var swiperPhone = new Swiper(".screenshots", {
-  navigation: {
-    nextEl: ".btn-nextt",
-    prevEl: ".btn-before",
-  },
 });

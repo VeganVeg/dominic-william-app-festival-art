@@ -45,14 +45,6 @@
   </head>
 
   <body>
-    <!-- FICHIER SCRIPT START -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
-    <script src="js/script.js"></script>
-    <!-- FICHIER SCRIPT END -->
     <div class="header">
       <nav class="navbar navbar-dark navbar-expand-lg fixed-top mb-4">
         <div class="container-fluid">
@@ -243,6 +235,7 @@
           </div>
           <div class="swiper screenshots">
             <div class="swiper-wrapper">
+
                 <div class="swiper-slide">
                   <img src="assets/img/cut/artwork-menu-cut.png" />
                 </div>
@@ -262,12 +255,11 @@
                   <img src="assets/img/cut/home-bas-cut.png" />
                 </div>
             </div>
+            <div class="swiper-nav">
+              <button class="btn-prev">Précédent</button>
+              <button class="btn-next">Suivant</button>
+            </div>
           </div>
-          <div class="swiper-nav">
-            <button class="btn-prev">Précédent</button>
-            <button class="btn-next">Suivant</button>
-          </div>
-          <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
       </section>
       <!-- SESCTION TESTIMONIALS -->
       <section class="section-testimonials" id="temoignages">
@@ -575,5 +567,12 @@
         </div>
       </div>
     </section>
+    <!-- FICHIER SCRIPT START -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="../js/script.js"></script>
+      <!-- FICHIER SCRIPT END -->
   </body>
 </html>
