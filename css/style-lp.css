@@ -53,6 +53,27 @@
 .section-features .card {
   margin: 15px;
 }
+
+/*---- SECTION VIEW MORE ----*/
+.swiper {
+  width: 80vw;
+  height: 70vh;
+  cursor: pointer;
+}
+
+.swiper img {
+  border: 5px solid var(--bleu);
+  border-radius: 45px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.swiper-btn {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+}
+
 /*----- section-testimonials -----*/
 .section-testimonials {
   padding: 30px;
