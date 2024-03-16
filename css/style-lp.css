@@ -70,7 +70,6 @@
 
 .swiper-nav {
   display: flex;
-  justify-content: space-between;
   width: 80vw;
   margin: 10px auto 0 auto;
 }
