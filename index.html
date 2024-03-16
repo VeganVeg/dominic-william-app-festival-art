@@ -30,14 +30,17 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
+    <!--Fichier swiper-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    
+
     <!-- FICHIER CSS START -->
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/style-lp.css" />
     <link rel="stylesheet" href="css/styles-app.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
-    />
     <!-- FICHIER CSS END -->
   </head>
 
@@ -48,7 +51,6 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
     <!-- FICHIER SCRIPT END -->
     <div class="header">
@@ -237,13 +239,10 @@
       </section>
       <!-- SECTION EN SAVOIR PLUS -->
       <section class="view-more" id="voir-plus">
-        <div class="container-fluid">
-          <div class="row justify-content-center text-center p-5">
-            <h1>Prévisualisez l'interface de l'appli</h1>
+            <h1 class="text-center">Prévisualisez l'interface de l'appli</h1>
           </div>
-          <div class="swiper">
+          <div class="swiper screenshots">
             <div class="swiper-wrapper">
-              <div class="swiper-screenshots">
                 <div class="swiper-slide">
                   <img src="assets/img/cut/artwork-menu-cut.png" />
                 </div>
@@ -262,14 +261,13 @@
                 <div class="swiper-slide">
                   <img src="assets/img/cut/home-bas-cut.png" />
                 </div>
-              </div>
-            </div>
-            <div class="swiper-btn">
-              <button class="swiper-befrore">Précédent</button>
-              <button class="swiper-next">Suivant</button>
             </div>
           </div>
-        </div>
+          <div class="swiper-nav">
+            <button class="btn-prev">Précédent</button>
+            <button class="btn-next">Suivant</button>
+          </div>
+          <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
       </section>
       <!-- SESCTION TESTIMONIALS -->
       <section class="section-testimonials" id="temoignages">

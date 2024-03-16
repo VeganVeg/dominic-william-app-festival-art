@@ -20,9 +20,9 @@ const swiperArtworks = new Swiper(".swiper-featured-artworks", {
   spaceBetween: 10,
 });
 
-const swiperPhone = new Swiper(".swiper-screenshots", {
+var swiperPhone = new Swiper(".screenshots", {
   navigation: {
-    nextEl: ".swiper-next",
-    prevEl: ".swiper-befrore",
+    nextEl: ".btn-nextt",
+    prevEl: ".btn-before",
   },
 });
