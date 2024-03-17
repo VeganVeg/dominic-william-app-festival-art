@@ -10,22 +10,18 @@ if (document.querySelector(".like-button") !== null) {
 
 const swiperPhone = new Swiper(".screenshots", {
   loop: true,
-  effect: "shadow",
-  slidesPerView: 3,
-  spaceBetween: 10,
-  shadow: {
-    slidesShadow: true,
-  },
+  slidesPerView: 1,
+  spaceBetween: 5,
   breakpoints: {
     1200: {
       slidesPerView: 3,
-      spaceBetween: 10,
-      slideShadows: true,
+      spaceBetween: 5,
+      slidesCentered: true,
     },
   },
   navigation: {
-    nextEl: ".btn-next",
-    prevEl: ".btn-prev",
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
   },
 });
 

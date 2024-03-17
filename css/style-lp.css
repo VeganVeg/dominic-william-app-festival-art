@@ -76,24 +76,19 @@
   margin-right: auto;
 }
 
-.swiper-nav {
-  display: flex;
-  justify-content: space-around;
-}
-
-.swiper-nav button {
-  width: 150px;
+.swiper-button-prev,
+.swiper-button-next {
   height: 70px;
-  border: 5px solid var(--bleu);
-  border-radius: 20px;
-  background-color: var(--rouge);
-  color: white;
+  width: 70px;
+  background-color: var(--vert);
+  border: 4px solid var(--bleu);
+  border-radius: 50px;
 }
 
-.swiper-nav button:hover {
-  background-color: var(--bleu);
-  color: var(--vert);
-  border-radius: 50px;
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: var(--rouge);
+  border: 4px solid var(--vert);
 }
 
 /*----- section-testimonials -----*/
