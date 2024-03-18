@@ -9,14 +9,15 @@ if (document.querySelector(".like-button") !== null) {
 }
 
 const swiperPhone = new Swiper(".screenshots", {
-  loop: true,
+  spaceBetween: 1,
   slidesPerView: 1,
-  spaceBetween: 5,
+  centeredSlides: true,
+  roundLengths: true,
+  loop: true,
   breakpoints: {
     1200: {
       slidesPerView: 3,
-      spaceBetween: 5,
-      slidesCentered: true,
+      spaceBetween: 1,
     },
   },
   navigation: {
